@@ -1,0 +1,59 @@
+.menu>button {
+    background: transparent;
+    border: none;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 15px auto;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    /* margin: 0px 10px; */
+}
+
+.menu>button:hover {
+    background-color: #333333;
+    border: none;
+}
+
+.offcanvas.offcanvas-start {
+    color: white;
+    background-color: #202020;
+    width: 20%;
+}
+
+.btn-close {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.zaidYt {
+    margin: auto;
+    font-size: 1.3rem;
+}
+
+.ytLogo {
+    width: 0%;
+    /* height: 10px; */
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(22, 22, 22);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #504f4f;
+}

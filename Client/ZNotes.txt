@@ -1,0 +1,5 @@
+==>How to fetch data from backend into react js using
+===>express api
+we used axios to fetch data using axios.get
+
+
